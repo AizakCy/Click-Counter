@@ -1,5 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+}
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #131313;
+  text-align: center;
+  padding: 30px;
+  border-radius: 3px;
+}
+#counter {
+  color: #eeeeee;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+.control-buttons {
+  display: flex;
+}
+.control-buttons button {
+  all: unset;
+  color: #eeeeee;
+  padding: 5px 20px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.control-buttons button:hover {
+  opacity: 1.2g;
+}
+#reduce {
+  background-color: red;
+}
+#rest {
+  background-color: #eeeeee;
+  color: #131313;
+}
+#increase {
+  background-color: green;
 }
